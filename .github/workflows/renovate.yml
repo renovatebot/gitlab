@@ -52,7 +52,7 @@ jobs:
         uses: renovatebot/github-action@abd08c7549b2a864af5df4a2e369c43f035a6a9d # v46.1.5
         with:
           token: ${{ secrets.GITLAB_TOKEN }}
-          renovate-version: 43.76.2
+          renovate-version: 43.86.0
           configurationFile: config.js
           docker-volumes: |
             /tmp:/tmp ;
